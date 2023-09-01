@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,500&family=Ubuntu:ital,wght@0,400;0,700;1,500&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background: linear-gradient(60deg,#153677,#4e085f);
+}
+
+.container{
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+
+
+}
+
+.app{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 60px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    font-weight: 500;
+    color:#001e4d;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color:#001e4d;
+    font-weight: 500;
+}
+.btn{
+    background: white;
+    color: #001e4d;
+    font-weight: 400;
+    border: 1px solid #222;
+    padding: 10px 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 0.3s;
+    text-align: left;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color:#fff;  
+
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 400;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    background: #ff9393;
+}
